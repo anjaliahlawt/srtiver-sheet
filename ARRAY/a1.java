@@ -1,6 +1,6 @@
  //FIND THE LARGEST ELEMNT IN THE ARRAY
 
-package ARRAY;
+//package ARRAY;
 public class a1 
   {
     public static void main(String[] args)
