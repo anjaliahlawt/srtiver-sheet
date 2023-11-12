@@ -5,7 +5,7 @@ public class a4
     public static void  main(String[] args) 
     {
     
-        int []a={1,2,3,2};
+        int []a={1,2,3,0};
         boolean  result = search(a);
         System.out.println(result);
     }
