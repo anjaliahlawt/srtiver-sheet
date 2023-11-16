@@ -1,6 +1,6 @@
 //Print 1 to N using Recursion
 
-package RECURSION;
+//package RECURSION;
 
 public class rec3
 {

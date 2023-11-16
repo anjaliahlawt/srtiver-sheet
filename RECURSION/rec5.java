@@ -1,6 +1,6 @@
 //Sum of first N Natural Numbers
 
-package RECURSION;
+//package RECURSION;
 
 public class rec5
 {

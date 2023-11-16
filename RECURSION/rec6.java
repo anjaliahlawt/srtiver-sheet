@@ -1,6 +1,6 @@
 //factorial of n number using recursion
 
-package RECURSION;
+//package RECURSION;
 
 public class rec6 
 {

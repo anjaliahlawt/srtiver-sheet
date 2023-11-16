@@ -1,5 +1,5 @@
 //Print name N times using recursion
-package RECURSION;
+//package RECURSION;
 public class rec2 
 {
     public static void main(String[] args) 
