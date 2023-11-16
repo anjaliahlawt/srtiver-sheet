@@ -1,3 +1,5 @@
+//Left Rotate the Array by One
+
 import java.util.*;
 public class a6 
 {
