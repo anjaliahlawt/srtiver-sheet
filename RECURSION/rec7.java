@@ -1,24 +1,27 @@
-//package RECURSION;
+import java.util.Arrays;
 
 public class rec7 
-{public static void main(String[] args) {
-    
-
-    int[]arr={1,2,3,4,6};
-    int n=arr.length-1;
-    reverse(arr,n);
-   
-}
-static void reverse(int []arr,int n)
 {
-    int j;
-      for(j=n;j>=0;j--)
-    if(j<0)
+    public static void main(String[] args)
     {
-        return ;
+        int []arr={1,2,3,4,5};
+        ReverseArray(arr,0,4);
+        System.out.println(Arrays.toString(arr));
+
     }
-System.out.print(arr[j]+" ");
-   
-   reverse(arr,n);
-}
+    static void ReverseArray(int[]arr,int start,int end)
+    {
+        
+        int temp;
+        if(start>=end)
+        {
+            return;
+        }
+        temp=arr[start];
+        arr[start]=arr[end];
+        arr[end]=temp;
+       
+        ReverseArray(arr,start+1,end-1);
+        
+    }
 }
