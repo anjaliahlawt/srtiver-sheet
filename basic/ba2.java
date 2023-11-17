@@ -11,10 +11,11 @@ public class ba2
         while(n!=0)
         {
              rem=n%10;
-             rev=rev+rem;
+             rev=rev*10+rem;
              n=n/10;
-             System.out.print(rem);
+            
         }
+        System.out.println(rev);
        
     }
 }
