@@ -1,3 +1,4 @@
+//armstrong number
 package basic;
 
 public class ba5
