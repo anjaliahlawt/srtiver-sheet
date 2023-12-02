@@ -19,3 +19,4 @@ public class ba4
          System.out.println("the gcd of the two number " +ans);
     }
 }
+        
