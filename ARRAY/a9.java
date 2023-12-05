@@ -4,22 +4,25 @@ public class a9
 {
     public static void main(String[] args) 
       {
-         String str="abba";
-         boolean result=ReverseArray(str);
-         if(result==true){
-         System.out.println(" palindrome"+result);
-        }
-        else{
-            System.out.println("is not palindrome"+result);
-        }
+           String str="abba";
+           boolean result=ReverseArray(str);
+           if(result==true)
+           {
+              System.out.println("is  palindrome"+result);
+           }
+          else
+          {
+             System.out.println("is not palindrome"+result);
+          }
       } 
     static boolean ReverseArray(String str)
    {
       int start=0;
       int end=str.length()-1;
-    while(start<end)
+      while(start<end)
       {
-         if(str.charAt(start)!=str.charAt(end)){
+         if(str.charAt(start)!=str.charAt(end))
+         {
             return false;
          }
          start++;
@@ -28,4 +31,15 @@ public class a9
       return true;
    }
 }
-    
+
+
+
+
+
+
+
+
+
+
+
+
