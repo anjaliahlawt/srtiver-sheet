@@ -17,8 +17,11 @@ public class a5
             {
                 if(a[i]!=a[j])
                 {
+                    System.out.println(i);
                     a[i+1]=a[j];
+                    System.out.println(i);
                     i++;
+                    System.out.println(i);
                 }
                
             }
