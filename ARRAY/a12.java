@@ -1,4 +1,4 @@
-//Rotate array by K elements
+// left Rotate  array by K elements
 //method 1
 /* 
 import java.util.*;
