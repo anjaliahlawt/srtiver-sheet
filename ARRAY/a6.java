@@ -12,10 +12,8 @@ public class a6
         for(i=1;i<n;i++)
         {
             arr[i-1]=arr[i];
-            
+        }
+        arr[n-1]=temp;
+        System.out.println(Arrays.toString(arr));
     }
-     arr[n-1]=temp;
-      System.out.println(Arrays.toString(arr));
-     
-}
 }

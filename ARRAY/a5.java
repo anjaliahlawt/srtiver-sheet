@@ -5,9 +5,11 @@ public class a5
     {
         int [] a={1,1,1,2,2,3,3,4,4};
         int result=search(a);
-        System.out.print(result);
-
-
+        System.out.println("The array after removing duplicate elements is ");
+        for (int i = 0; i < result; i++)
+          {
+            System.out.println(a[i]);
+          }
     }
         public static int search(int[] a)
         {
@@ -17,16 +19,14 @@ public class a5
             {
                 if(a[i]!=a[j])
                 {
-                    System.out.println(i);
+                  
                     a[i+1]=a[j];
-                    System.out.println(i);
+                   
                     i++;
-                    System.out.println(i);
+                 
                 }
                
             }
-           
-         
             return i+1;
        }
 }

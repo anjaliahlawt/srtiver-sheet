@@ -13,14 +13,11 @@ public class a4
         int n=a.length;
         for(int i=1;i<n;i++)
         {
-               if(a[i-1]<=a[i])
-               {
-                  
-               }
-               else
+               if(a[i]<=a[i-1])
                {
                   return false;
                }
+              
         }
         return true;
     }

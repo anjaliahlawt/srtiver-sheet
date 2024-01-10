@@ -47,3 +47,42 @@ public class a3
       }
    }
     
+/* 
+
+    public static void main(String[] args) 
+    {
+        int []arr={2,4,1,6};
+        int n=arr.length;
+        int min1=arr[0];
+        int min2=10;
+        int max1=arr[0];
+        int max2=-1;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=0;j<n;j++)
+            {
+                if(arr[j]>max1)
+            {    
+                max2=max1;
+                max1=arr[j];
+            }
+            else if(arr[j]>max2&&arr[j]!=max1) 
+            {
+                 max2=arr[j];
+            } 
+            if(arr[i]<min1)
+            { 
+                min2=min1;
+                min1=arr[i]; 
+             }
+            else if(arr[i]<min2&&arr[i]!=min1) 
+            {
+                 min2=arr[i];
+            } 
+         
+        }}
+        System.out.println("second smallest"+min2);
+        System.out.println("second largest"+max2);
+    }
+}
+*/

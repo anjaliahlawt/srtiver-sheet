@@ -4,7 +4,7 @@ public class a2
 {
     public static void main(String[] args)
     {
-        int a[]={1,2,4,7,7,5};
+        int a[]={2,4,1,6};
         int n=a.length;
         int min=a[0];
         int max=a[0];
