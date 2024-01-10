@@ -7,8 +7,6 @@ public class a13
         int []arr={1,2,3,4,5,6,7};
         int n=arr.length;
         int k=2;
-        int start=0;
-        int end=arr.length-1;
         rotate(arr,n,k);
         System.out.println(Arrays.toString(arr));
         
