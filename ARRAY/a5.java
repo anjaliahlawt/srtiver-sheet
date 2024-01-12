@@ -8,9 +8,9 @@ public class a5
         int result=search(a);
         System.out.println("The array after removing duplicate elements is ");
         for (int i = 0; i < result; i++)
-          {
+        {
             System.out.println(a);
-          }
+        }
           
     }
         public static int search(int[] a)
@@ -23,7 +23,6 @@ public class a5
                 {
                   
                     a[i+1]=a[j];
-                   
                     i++;
                  
                 }
