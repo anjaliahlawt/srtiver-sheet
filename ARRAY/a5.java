@@ -1,5 +1,4 @@
 //Remove Duplicates in-place from Sorted Array
-import java.util.*;
 public class a5
 {
     public static void main(String[] args) 
