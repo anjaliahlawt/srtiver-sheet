@@ -1,4 +1,5 @@
 //Remove Duplicates in-place from Sorted Array
+import java.util.*;
 public class a5
 {
     public static void main(String[] args) 
@@ -8,8 +9,9 @@ public class a5
         System.out.println("The array after removing duplicate elements is ");
         for (int i = 0; i < result; i++)
           {
-            System.out.println(a[i]);
+            System.out.println(a);
           }
+          
     }
         public static int search(int[] a)
         {
