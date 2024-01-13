@@ -1,6 +1,7 @@
 //Find the number that appears once, and the other numbers twice
 
 //method 1:
+package ARRAYEASY;
 /* 
 public class a19
  {

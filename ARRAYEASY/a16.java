@@ -40,6 +40,7 @@ public class a16
     */
     
     //method 2:two pointer
+    package ARRAYEASY;
     public class a16
     {
        public static void main(String[] args) 

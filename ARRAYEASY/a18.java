@@ -1,6 +1,6 @@
 //Count Maximum Consecutive One’s in the array
 
-
+package ARRAYEASY;
 public class a18
 {
     public static void main(String[] args) 

@@ -1,6 +1,7 @@
 //Longest Subarray with given Sum K(Positives)
 
 //method 1
+
 /* 
 public class a20
 {
@@ -30,7 +31,7 @@ public class a20
 */
 
 //method 2;
-
+package ARRAYEASY;
 public class a20
 {
    public static void main(String[] args) 

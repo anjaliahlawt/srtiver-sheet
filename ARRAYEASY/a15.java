@@ -1,5 +1,6 @@
 
 //linear search
+package ARRAYEASY;
 public class a15 
 {
     public static void main(String[] args) 

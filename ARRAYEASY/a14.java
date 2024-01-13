@@ -37,6 +37,7 @@ public class a14
 }
 */
 //method 2;
+package ARRAYEASY;
 import java.util.*;
 public class a14
 {
