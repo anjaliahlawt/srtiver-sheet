@@ -35,9 +35,8 @@ public class a20
 {
    public static void main(String[] args) 
    {
-      int[]arr={2,3,5,1,9};
-      int n=arr.length;
-      int k=10;
+      int[]arr={-1,1,1};
+      int k=1;
       int result=longest(arr,k);
       System.out.println(result);
    }
