@@ -31,7 +31,7 @@ public class a20
 */
 
 //method 2;
-package ARRAYEASY;
+//package ARRAYEASY;
 public class a20
 {
    public static void main(String[] args) 

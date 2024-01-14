@@ -1,3 +1,4 @@
+package basic;
 public class ba8 
 {
     public static void main(String[] args)

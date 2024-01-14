@@ -19,12 +19,11 @@ public class ar3
                 {
                    count++;
                 }
-              
             }
              if(target==count)
             {
                 System.out.println(arr[i]);
              }
-        
-    }}
+        }
+    }
 }
