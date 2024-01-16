@@ -65,7 +65,7 @@ public class ar4
 {
     public static void main(String[] args) 
     {
-        int []arr={-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int []arr={1};
         int n=arr.length;
         int ans=maximumsum(arr,n);
         System.out.println(ans);
