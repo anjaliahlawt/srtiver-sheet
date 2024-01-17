@@ -1,7 +1,7 @@
 //Find the Majority Element that occurs more than N/2 times
 
 //method 1:
-package ARRAYMEDIUM;
+//package ARRAYMEDIUM;
 public class ar3 
 {
     public static void main(String[] args)

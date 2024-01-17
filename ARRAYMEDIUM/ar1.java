@@ -1,7 +1,7 @@
 //Two Sum : Check if a pair with given sum exists in Array
 
 //method 1:
-package ARRAYMEDIUM;
+//package ARRAYMEDIUM;
 /* 
 
 public class ar1

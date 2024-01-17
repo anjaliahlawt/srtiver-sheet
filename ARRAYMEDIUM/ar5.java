@@ -2,7 +2,7 @@
 
 //method 1:time complexity n2
 
-package ARRAYMEDIUM;
+//package ARRAYMEDIUM;
 /* 
 public   class ar5
  {

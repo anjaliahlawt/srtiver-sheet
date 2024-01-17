@@ -1,7 +1,7 @@
 //Sort an array of 0s, 1s and 2s
 
 //method 1:
-package ARRAYMEDIUM;
+//package ARRAYMEDIUM;
 import java.util.*;
 public class ar2 
 {
