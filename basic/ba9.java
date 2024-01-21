@@ -9,5 +9,6 @@ public class ba9
         b=a-b;
         a=a-b;
         System.out.println(a+" "+b);
+        System.out.println("anjali");
     }
 }
