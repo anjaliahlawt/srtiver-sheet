@@ -1,7 +1,7 @@
 
 //selsction sort
 
-package sorting;
+//package sorting;
 public class selectionsort
 {
     public static void main(String[] args) 
