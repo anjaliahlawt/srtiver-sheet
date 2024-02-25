@@ -2,70 +2,72 @@
 
 import java.util.*;
 
-class Solution {
-     static void merge(int[] arr, int low, int mid, int high) {
-        ArrayList<Integer> temp = new ArrayList<>(); 
-        int left = low;    
-        int right = mid + 1; 
-
-        while (left <= mid && right <= high) {
-            if (arr[left] <= arr[right]) {
-                temp.add(arr[left]);
-                left++;
-            } else {
-                temp.add(arr[right]);
-                right++;
-            }
-        }
-
-        while (left <= mid)
-        {
-            temp.add(arr[left]);
-            left++;
-        }
-
-        while (right <= high) 
-        {
-            temp.add(arr[right]);
-            right++;
-        }
-       
-
-        for (int i = low; i <= high; i++)
-        {
-            arr[i] = temp.get(i - low);
-        }
-    }
-
-    public static void mergeSort(int[] arr, int low, int high) 
+public class mergesort{
+    static void conquer(int[]arr,int start,int mid,int end)
     {
-        if (low >= high) return;
-        int mid = (low + high) / 2 ;
-        mergeSort(arr, low, mid); 
-        mergeSort(arr, mid + 1, high);
-       merge(arr, low, mid, high); 
-   }
-
-}
-public class mergesort
- {
-    public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
-        int n = 7;
-        int arr[] = { 9, 4, 7, 6, 3, 1, 5 };
-       System.out.println("Before sorting array: ");
-        for (int i = 0; i < n; i++) 
+        ArrayList<Integer> temp = new ArrayList<>();
+        int indx1=start;
+        int indx2=mid+1;
+        while(indx1<=mid && indx2<=end)
         {
-           System.out.print(arr[i] + " ");
+           if(arr[indx1]<=arr[indx2])
+           {
+             temp.add(arr[indx1]);
+             indx1++;
+           }
+           else
+           {
+             temp.add(arr[indx2]);
+             indx2++;
+           }
         }
-        System.out.println();
-        Solution.mergeSort(arr, 0, n - 1);
-        System.out.println("After sorting array: ");
-        for (int i = 0; i < n; i++) 
-        {
-          System.out.print(arr[i] + " ");
-        }
-        System.out.println();
+           while(indx1<=mid)
+           {
+             temp.add(arr[indx1]);
+             indx1++;
+           }
+           while(indx2<=end)
+           {
+             temp.add(arr[indx2]);
+             indx2++;
+           }
+           for (int i = start; i <= end; i++) {
+             arr[i] = temp.get(i - start);
+         }
     }
+      
+ 
+   static void divide(int[]arr,int start,int end)
+   { 
+       if(start>=end)
+        return;
+       
+       int mid=(start+end)/2;
+       divide(arr,start,mid);
+       divide(arr,mid+1,end);
+       conquer(arr,start,mid,end);
+   }
+  
+  
+  
 
+   public static void main(String[] args) 
+   {
+     int []arr={6,3,9,5,2,8};
+     int n =arr.length;
+     System.out.println("before merge sort");
+     for(int i=0;i<n;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+     System.out.println();
+     divide(arr,0,n-1);
+     System.out.println("after merge sort");
+     for(int i=0;i<n;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+     System.out.println();
+
+   }
 }
