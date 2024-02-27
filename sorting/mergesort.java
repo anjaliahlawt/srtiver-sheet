@@ -3,6 +3,26 @@
 import java.util.*;
 
 public class mergesort{
+  public static void main(String[] args) 
+   {
+     int []arr={6,3,9,5,2,8};
+     int n =arr.length;
+     System.out.println("before merge sort");
+     for(int i=0;i<n;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+     System.out.println();
+     divide(arr,0,n-1);
+     System.out.println("after merge sort");
+     for(int i=0;i<n;i++)
+     {
+       System.out.print(arr[i]+" ");
+     }
+     System.out.println();
+
+   }
+
     static void conquer(int[]arr,int start,int mid,int end)
     {
         ArrayList<Integer> temp = new ArrayList<>();
@@ -48,26 +68,7 @@ public class mergesort{
        conquer(arr,start,mid,end);
    }
   
-  
-  
-
-   public static void main(String[] args) 
-   {
-     int []arr={6,3,9,5,2,8};
-     int n =arr.length;
-     System.out.println("before merge sort");
-     for(int i=0;i<n;i++)
-     {
-       System.out.print(arr[i]+" ");
-     }
-     System.out.println();
-     divide(arr,0,n-1);
-     System.out.println("after merge sort");
-     for(int i=0;i<n;i++)
-     {
-       System.out.print(arr[i]+" ");
-     }
-     System.out.println();
-
-   }
 }
+  
+
+  
