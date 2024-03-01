@@ -2,7 +2,7 @@ public class bubblesort
 {
     public static void main(String[] args) 
     {
-        int[]arr={13,46,24,52,20,9};
+        int[]arr={13,46,13,24,52,20,9};
         int n =arr.length;
         System.out.println("Before bubble sort ");
         for(int k=0;k<n;k++)
@@ -18,7 +18,7 @@ public class bubblesort
         {
             for(int j=0;j<=i-1;j++)
             {
-                if(arr[j]>arr[j+1])
+                if(arr[j]>=arr[j+1])
                 {
                     int temp=arr[j];
                     arr[j]=arr[j+1];
