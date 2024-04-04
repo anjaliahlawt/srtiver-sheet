@@ -15,7 +15,8 @@ class bsur1
 
     }
     static void bubblesort(int[]arr,int n)
-    {
+    
+        {
         if(n==1)
         return;
         for(int j=0;j<=n-2;j++)
