@@ -1,7 +1,7 @@
 //Implement Lower Bound=smallest index such taht the arr[i]>=x
 
 //package BinarySearch;
- class b2
+ /*class b2
  {
     public static void main(String[] args) 
     {
@@ -24,18 +24,18 @@
     }
  }
 
+*/
 
 
-
-/*class b2
+class b2
 {
     public static void main(String[] args)
     {
         int arr[]={3,5,8,15,19};
-        int n=arr.length;
+        int n=5;
         int x=9;
-       int ans= lower(arr, n, x);
-       System.out.println(ans);
+       int result= lower(arr, n, x);
+       System.out.println(result);
     }
     static int lower(int[]arr,int n,int x)
     {
@@ -44,7 +44,7 @@
        while(start<=end)
        {
          int mid=(start+end)/2;
-         if(arr[mid]>=n)
+         if(arr[mid]>=x)
          {
             ans=mid;
             end=mid-1;
@@ -55,6 +55,6 @@
          }
        }
        return ans;
-       
-    }
-}*/
+        }
+    
+}
