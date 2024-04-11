@@ -6,9 +6,9 @@ public class b11
 {
     public static void main(String[] args)
     {
-        int[]arr={4,5,6,7,0,1,2,3};
-        int n=arr.length;
-        int ans=rotate(arr,n);
+        int[]arr={4,5,6,7,0,1,2,3};]
+
+        otate(arr,n);
         System.out.println(ans);
         
     }
@@ -32,7 +32,7 @@ public class b11
 */
 class b11
 {
-    public static void main(String[] args) 
+    public static void main(String[] args) onhpppppppppppppppppppp] `a1qqAAAAAAAAAAAAAAAAAAAAAAA9/* */
     {
         int[]arr={3,4,5,0,1,2};
         int n =arr.length;
