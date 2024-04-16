@@ -1,3 +1,6 @@
+//Search Single Element in a sorted array
+//ist approch
+ 
 public class b12
 {
    public static void main(String[] args)
@@ -42,3 +45,6 @@ public class b12
    
    
 }
+
+
+
