@@ -20,6 +20,7 @@ public class b14
     }
 }
 */
+/* 
 
 class b14
 {
@@ -50,8 +51,22 @@ class b14
        return ans;
     }
 }
+*/
+import java.util.*;
+import java.lang.Math;
 
+public class b14 {
+    public static int floorSqrt(int n) {
+        int ans = (int) Math.sqrt(n);
+        return ans;
+    }
 
+    public static void main(String[] args) {
+        int n = 28;
+        int ans = floorSqrt(n);
+        System.out.println("The floor of square root of " + n + " is: " + ans);
+    }
+}
 
 
 
