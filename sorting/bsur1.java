@@ -12,7 +12,6 @@ class bsur1
         {
            System.out.print(arr[i]+" ");
         }
-
     }
     static void bubblesort(int[]arr,int n)
     
