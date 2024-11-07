@@ -7,7 +7,7 @@ public class ar2
 {
     public static void main(String[] args)
     {
-        int []arr={2,0,2,1,1,0};
+        int []arr={2,0,1};
         int n =arr.length;
         for(int i=0;i<n;i++)
         {
